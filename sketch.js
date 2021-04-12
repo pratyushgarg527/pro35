@@ -42,13 +42,13 @@ function draw() {
   else if (keyDown(UP_ARROW)) {
     updateHeight(0, -1);
     balloon.addAnimation("hotAirBalloon", balloonImage2);
-    balloon.scale = balloon.scale - 0.1
+    balloon.scale = balloon.scale - 0.01
     
   }
   else if (keyDown(DOWN_ARROW)) {
     updateHeight(0, +1);
     balloon.addAnimation("hotAirBalloon", balloonImage2);
-    balloon.scale = balloon.scale + 0.1
+    balloon.scale = balloon.scale + 0.01
     
   }
 
